@@ -5,3 +5,7 @@ p{
 div{
     width: 50%;
 }
+
+button{
+    cursor: pointer;
+}
