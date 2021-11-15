@@ -22,12 +22,18 @@
             var bar = document.getElementById("menu")
             if (bar.style.display === "none") {
     bar.style.display = "block";
-    bar.style.position = "absolute";
+    bar.style.position="absolute";
+    bar.style.width="100%";
+    bar.style.height="100%";
 
   } else {
     bar.style.display = "none";
   }
         }
+
+        function closebar() {
+  document.getElementById("menu").style.display = "none";
+}
         </script>
      <audio id="a" >
       <source src="HiraganaAudio/a.mp3" type="audio/mpeg">
@@ -39,18 +45,20 @@
         </audio>
 
 </head>
+
+
+
 <body>
-    <div class="menu">
-       <button onclick="show()">click here for menu</button> 
-    </div>
+  <button onclick="show()">click here for menu</button> 
+  
     <div class="container">
-        <div id="menu">
-            <ul>
-              <li>hi</li>
-              <li>hi</li>
-              <li>hi</li>
-            </ul>
-        </div>
+      <div id="menu">
+        <ul>
+          <li>hi</li>
+          <li>hi</li>
+          <li>hi</li>
+        </ul>
+    </div>
     <div id="maincontent">
         <p >اليابان و بالياباني " 日本 " هي أول دولة تشرق بها الشمس . 
             لذلك اخترت أن نتعلم جملة " صباح الخير " بالبداية .

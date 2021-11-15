@@ -4,7 +4,7 @@
     grid-template-columns: 1fr  2fr  ;
    grid-template-rows:  1fr ;
     grid-template-areas: 
-    "menu maincontent  "
+    "maincontent maincontent  "
     
     ;
 
@@ -24,10 +24,9 @@ button{
 }
 
 #menu{
-    grid-area: menu;
+   
     background-color: lightskyblue;
-    max-width: 300px;
-    min-width: 300px;
+   
 }
 
 #maincontent{
