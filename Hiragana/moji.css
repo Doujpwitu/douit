@@ -1,0 +1,83 @@
+.moji{
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 200px  50px 200px 100px ;
+   grid-template-rows:  100px 100px ;
+    grid-template-areas: 
+    "gif re   mtimg mt"
+    "gif  ra mtimg mt"
+    
+    
+    ;
+
+    grid-gap: 0.2rem;
+    
+}
+
+
+#Gif{
+    grid-area: gif;
+    background-color: rgb(255, 255, 255);
+      
+    
+    
+    }
+#Gif img{
+    width: 200px;
+    height: 200px;
+}
+#Gif button{
+    padding: 0;
+border: none;
+background: none;
+}
+    #RE{
+    grid-area: re;
+    border: lightslategray 3px solid;
+
+    }
+    #RA{
+    grid-area: ra;
+    border: lightslategray 3px solid;
+
+    
+    }
+    #MT{
+    grid-area: mt;
+    border: lightslategray 3px solid;
+    
+    overflow: scroll;
+
+        
+    }
+    #MTimg{
+    grid-area: mtimg;
+    border: lightslategray 3px solid;
+    }
+    
+    
+
+
+
+
+ @media Only screen and (max-width:550px)
+{
+    .moji{
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 2fr 1fr 2fr 1fr  ;
+        grid-template-areas: 
+        "gif gif  "
+        "re ra"
+        "mtimg mtimg"
+        "mt mt"
+       
+        ;
+
+
+    }
+    #Gif img{
+        width: auto;
+        height: auto;
+
+    }
+}

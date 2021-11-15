@@ -1,7 +1,127 @@
-div{
-    width: 50%;
+.container{
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 2fr  2fr  ;
+    grid-template-rows: 1fr 2fr 2fr 1fr ;
+    grid-template-areas: 
+    "nav nav    "
+    "main main   "
+    "box1 box2  "
+    "footer footer"
+    ;
+
+    grid-gap: 0.2rem;
+}
+
+
+
+
+
+h1{
+    direction: rtl;
 }
 p{
     direction: rtl;
-    color: darkred;
+  
+}
+ul{
+    direction: rtl;
+   list-style-type: none;
+}
+
+
+#nav{
+  
+    height: 35px;
+    font-size: 20px;
+    position: fixed;
+    top : 0;
+    padding-top: 20px;
+    right : 20px;
+    width: 100%;
+    background-color: white;
+    grid-area: nav;
+    }
+    #nav ul{
+        list-style : none;
+        padding: 0 ;
+        margin : 0 ;
+        text-align: right;
+    }
+    
+    #nav li {
+    
+        display: inline;
+        padding: 15px;
+        vertical-align: middle;
+      
+      }
+    
+    
+      #nav a {
+        text-decoration: none;
+        color: rgb(0, 0, 0) ;
+        padding: 8px 8px 8px 8px;
+      vertical-align: middle;
+    }
+    #nav a:hover {
+        background-color: rgb(233, 157, 216);
+       
+    }
+    
+#main{
+padding-top: 100px;
+width: 80%;
+margin: auto;
+grid-area: main;
+}
+#box1 ,#box2{
+   
+    height: 300px;
+    border: gray 2px solid;
+   border-radius: 15px;
+   
+    vertical-align: middle;
+   
+}
+#box1{
+    grid-area: box1;
+}
+#box1content{
+    width: 100%;
+    height: 100%;
+}
+#box2{
+    grid-area: box2;
+}
+#box2content{
+    width: 100%;
+    height: 100%;
+}
+#footer{
+    text-align: center;
+    padding-top: 40px;
+    grid-area: footer;
+}
+#footer > p {
+   color: rgb(94, 94, 94);
+   font-size: 14px;
+}
+
+
+@media Only screen and (max-width:550px)
+{
+    .container{
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr 2fr 2fr 2fr  1fr ;
+        grid-template-areas: 
+        "nav   "
+        "main "
+        "box1 "
+        "box2 "
+        "footer "
+        ;
+
+
+    }
 }

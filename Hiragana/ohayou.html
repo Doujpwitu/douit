@@ -1,17 +1,57 @@
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="moji.css">
     <script>
-        function aud_play_pause() {
-         var myAudio = document.getElementById("myAudio");
+        function playa() {
+         var myAudio = document.getElementById("a");
          
            myAudio.play();
          
         }
+        function playi() {
+         var myAudio = document.getElementById("i");
+         
+           myAudio.play();
+         
+        }
+   
+        function show(){
+            var bar = document.getElementById("menu")
+            if (bar.style.display === "none") {
+    bar.style.display = "block";
+    bar.style.position = "absolute";
+
+  } else {
+    bar.style.display = "none";
+  }
+        }
         </script>
+     <audio id="a" >
+      <source src="HiraganaAudio/a.mp3" type="audio/mpeg">
+      This HTML5 player is not supported by your browser
+      </audio>
+      <audio id="i" >
+        <source src="HiraganaAudio/i.mp3" type="audio/mpeg">
+        This HTML5 player is not supported by your browser
+        </audio>
+
 </head>
 <body>
-    <div>
+    <div class="menu">
+       <button onclick="show()">click here for menu</button> 
+    </div>
+    <div class="container">
+        <div id="menu">
+            <ul>
+              <li>hi</li>
+              <li>hi</li>
+              <li>hi</li>
+            </ul>
+        </div>
+    <div id="maincontent">
         <p >اليابان و بالياباني " 日本 " هي أول دولة تشرق بها الشمس . 
             لذلك اخترت أن نتعلم جملة " صباح الخير " بالبداية .
             
@@ -21,15 +61,28 @@
             
             لاحظوا مقطع الفيديو ، الفتاة التي أنزلت رأسها تحدثت بالطريقة الرسمية لأنها تتحدث مع زميلتها الأكثر منها خبرة بالعمل ، ولكن هي ردت عليها بالطريقة العامية وهي " أوهايو " التي سنتعلمها الآن .
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OArGpw8cWgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <audio id="myAudio" >
-        <source src="HiraganaAudio/a.mp3" type="audio/mpeg">
-        This HTML5 player is not supported by your browser
-      </audio>
-      
-    <button type="button" onclick="aud_play_pause()" ><img src="HiraganaGifs/a.gif" alt=""></button>
-        
+            <iframe src="https://www.youtube.com/embed/OArGpw8cWgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+ 
+         <div class="moji">
+            <div id="Gif"><button type="button" onclick="playi()" ><img src="HiraganaGifs/i.gif" alt=""></button></div>
+            <div id="RE">i  </div>
+            <div id="RA">إِ</div>
+            <div id="MT">imagine that this cute little i sound looks like your smallest finger on your hand of your feet and when you need to go to the toilet you always hit it with the door and you cry like iiiiii is there anyone else here cry like ii ? or its only me ?</div>
+            <div id="MTimg">img for memorizing it </div>
+           
+                </div>
+                <div class="moji" >
+                    <div id="Gif"><button type="button" onclick="playi()" ><img src="HiraganaGifs/i.gif" alt=""></button></div>
+                    <div id="RE">i  </div>
+                    <div id="RA">إِ</div>
+                    <div id="MT">imagine that this cute little i sound looks like your smallest finger on your hand of your feet and when you need to go to the toilet you always hit it with the door and you cry like iiiiii is there anyone else here cry like ii ? or its only me ?</div>
+                    <div id="MTimg">img for memorizing it </div>
+                   
+                   
+                </div>
+</div>  
+</div>
 </body>
 
 </html>
