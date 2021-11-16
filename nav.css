@@ -7,7 +7,7 @@ background-color: slateblue;
 
 .menu-toggle
 {
-    
+    padding-top: 15px;
     float: left;
     line-height: 50px;
     width: 24px;
@@ -63,6 +63,7 @@ background: #2196f3;
     }
     .menu-toggle
      {
+       
         display: block;
       }
       header nav{

@@ -1,16 +1,3 @@
-.container{
-    display:grid;
-    height: 100vh;
-    grid-template-columns: 1fr  2fr  ;
-   grid-template-rows:  1fr ;
-    grid-template-areas: 
-    "maincontent maincontent  "
-    
-    ;
-
-    grid-gap: 0.2rem;
-}
-
 
 
 p{
@@ -19,45 +6,120 @@ p{
 }
 
 
-button{
-    cursor: pointer;
-}
 
-#menu{
-   
-    background-color: lightskyblue;
-   
-}
-
-#maincontent{
-grid-area: maincontent;
-}
 
 iframe{
     width: 100%;
     aspect-ratio: 16/9;
+    max-width: 700px;
 }
 
-.menu{
-background-color: white;
-position: fixed;
+#maincontent{
+    margin: 22px;
+    padding-left: 280px;
+    height: 100vh;
+    
+
 }
 
-@media Only screen and (max-width:950px)
+@media (max-width: 991px){
+    #maincontent{
+        padding-left:0;
+        padding-top: 60px;
+    }
+}
+
+
+
+/* nav */
+/* nav */
+/* nav */
+/* nav */
+/* nav */
+
+
+
+
+.menu-toggle
 {
-    .container{
-        grid-template-columns: 1fr  ;
-        grid-template-rows: 1fr  ;
-        grid-template-areas: 
-        "maincontent   "
-        
-        ;
+    
+    padding-top: 15px;
+    float: left;
+    line-height: 50px;
+    width: 24px;
+    cursor: pointer;
+    display: none;
 
-
-    }
-    #menu{
-        display: none;
-        
-    }
 }
 
+header{
+ position: fixed;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ width:270px;
+ background:purple;
+ height: 100vh;
+ box-sizing: border-box;
+}
+header nav {
+
+    float: left;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+   
+}
+header nav ul li{
+    list-style: none;
+    display: block;
+}
+header nav ul li a 
+{
+   height: 50px;
+   line-height: 50px;
+   padding: 0 20px;
+   color: #fff;
+   text-decoration: none;
+   display: block;
+   
+}
+
+header nav ul li a:hover {
+    color: rebeccapurple;
+background: #2196f3;
+
+}
+
+@media (max-width: 991px){
+    header{
+        padding: 0 20px;
+      width: 100%;
+      height: 50px;
+
+    }
+    .menu-toggle
+     {
+        display: block;
+      }
+      header nav{
+        float: left;
+         position: absolute;
+         width: 100%;
+         height:100vh;
+         background: #333;
+         top: 50px;
+         left: -100%;
+         transition: 0.5s;
+     }
+     header nav.active{
+       left: 0;  
+     }
+     header nav ul{
+         display: block;
+     }
+     header nav ul li a {
+        border-bottom: 1px solid rgba(0,0,0,2);
+     }
+}
