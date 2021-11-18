@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/content-nav.css">
+    <link rel="stylesheet" href="../CSS/moji.css">
+    
+        <!-- script for playing the audio files -->
+        <script>
+        function playa() {
+         var myAudio = document.getElementById("a");
+         
+           myAudio.play();
+         
+        }
+        function playi() {
+         var myAudio = document.getElementById("i");
+         
+           myAudio.play();
+         
+        }
+
+        </script>
+       <!-- script for playing the audio files -->
+       <!-- audio files -->
+       <audio id="a" >
+             <source src="../HiraganaAudio/a.mp3" type="audio/mpeg">
+             This HTML5 player is not supported by your browser
+       </audio>
+       <audio id="i" >
+              <source src="../HiraganaAudio/i.mp3" type="audio/mpeg">
+              This HTML5 player is not supported by your browser
+       </audio>
+       <!-- audio files -->
+
+
+    
+        <!-- the start of jquery script to toggle the side bar -->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script type="text/javascript">
+              $(document).ready(function(){
+              $('.menu-toggle').click(function(){
+              $('nav').toggleClass('active')
+  
+             })
+            })
+        </script>
+
+        <!-- the end of jquery script to toggle the side bar -->
+
+</head>
+
+
+
+<body>
+  <header>
+    <!-- the start of the sidebar -->
+    <nav > 
+        <ul>      
+            <li><a href="../../index.html"> الرئيسية </a></li>
+            <li><a href="#" class="active">تاريخ اللغة اليابانية</a></li>
+            <li><a href="#">اليابان</a></li>
+            <li><a href="#">صباح الخير</a></li>
+            <li><a href="#">من البداية</a></li>
+            <li><a href="#">شدة،سكون،تنوين</a></li>
+            <li><a href="#">اللغة العربية السعودية</a></li>
+
+        </ul>
+    </nav>
+        <!-- the end of the sidebar -->
+        <!-- the start of the menu icon -->
+          <div class="menu-toggle">
+              <svg viewBox="0 0 100 80">
+              <rect width="100" height="14" fill="black"></rect>
+              <rect y="30" width="100" height="14" fill="black"></rect>
+              <rect y="60" width="100" height="14" fill="black"></rect>
+              </svg>
+          </div>
+        <!-- the end of the menu icon -->
+       
+
+  </header>
+        
+          <!-- our maincontent -->
+
+          <div id="maincontent">
+              <h1>تاريخ اللغة اليابانية </h1>
+              <p >الكثير منا يعتقد أن حروف اللغة اليابانية كثيرة ومخيفة.. لماذا لهم ثلاثة أنظمة للكتابة ؟
+                في هذا الفصل إن شاء الله سأشرح تاريخ اللغة اليابانية بالتفصيل وتحديدا عن حروفها مع استخدام مقاطع تمثيلية ساخره لما حدث بالماضي .
+                 <br>
+                بالبداية اليابان قديما لم يكن لديهم حروف لمدة طويلة تقريبا تمد للقرن الخامس ، كانوا لا يكتبون تاريخهم ولكن ينقلونه إلى الجيل الذي بعدهم بالتلقين شفهيا.
+                إذاً التواصل بينهم كان فقط من خلال التحدث أي من خلال الصوت فقط.
+                كلنا نعرف أن اليابان هي جزيرة تحيطها المياه من كل اتجاه .
+                فلم تدخل إلى دولة اليابان أي ثقافات أجنبية إلى أن صُنعت السفن فبدأت التجارة بين اليابان و الصين .
+                على عكس اليابان دولة الصين كانت لديها حروف وتسمى الـ "هانزُ" باللغة الصينية وكانوا يستخدمونها لتسجيل تاريخهم .
+                 <br>
+                نلاحظ بالمقطع الأول كيف دخلت الحروف الصينية اليابان عبر الختوم الذهبية التي كانت ترسل من الصين.
+                تلك الحروف التي كانت محفورة على الذهب هي أول حروف يراها اليابانييون وكان مكتوب بالصيني " ملك دولة نا اليابانية التابع لحكم سلالة هان الصينية" . 
+                 </p>
+                 <iframe src="https://www.youtube.com/embed/GIy802INWzM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>المقطع التالي يوضح كيف كان ينقل اليابانييون تاريخهم شفهيا ، لكن رأى اليابانييون أن الصينيين لا يتعلمون نفسهم بل يسجلون التاريخ باستخدام الحروف فبدأوا بتعلم تلك الحروف الصينية ومن ذلك بدأوا يقرأون الأدب الصيني ويتعلمون الثقافة الصينية و النظام السياسي.</p>
+                <iframe src="https://www.youtube.com/embed/8qmsI56dK94?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>لكن وجد اليابانييون أن الأدب الصيني صعب وهو بالتأكيد كذلك لأنه مختلف عن اللغة التي هم يتحدثونها وله قواعد محددة مرتبطة باللغة الصينية . وهنالك فكر اليابانييون باستخدام صوت الحروف الصينية فقط وكتابة اللغة اليابانية التي يتحدثونها بدون التفكير بالأدب الصيني وقواعده.
+                <br>
+                أي كما نستخدم نحن الحروف الإنجليزية لكتابة اللغة العربية فمثلا نكتب السلام بالطريقة هذه SLAM 
+                نفس الشي كان يفعله اليابانييون مع الحروف الصينية .
+                 <br>
+                لكن المشكلة هنا هي أن الحروف الصينية لها معنى مرتبط بها على عكس الحروف الإنجليزية . مثلا الحرف A ليس له معنى مرتبط به فهو بالنهاية حرف يوضح كيفية النطق فقط . لكن تخيلوا معي لو كانت الحروف الإنجليزية مرتبطة بمعنى معين
+                مثلاً لو كانت المعاني كالتالي ..  
+                الحرف S له معنى ثعبان لأنه يشبه شكله و له اللفظ S مثلا. <br>
+                 الحرف L له معنى الموت واللفظ L طبعا. <br>
+                 الحرف A له معنى الهلاك .<br>
+                </p>
+                <img style="height: 300px; width : 300px;" src="../images/S_Python.png" alt="نفرض أن الحرف له معنى ثعبان ">
+              <img style="height: 300px; width : 300px;" src="../images/L_Maot.png" alt="نفرض أن الحرف له معنى الموت">
+                
+              <p>بعد سماعك لهذه المعاني المرعبة والمخيفة أنت بالتأكيد لا تريد كتابة كلمة السلام بهذه الطريقة SLAM لأن الآن معاني الحروف ستعطي معنى مناقض لمعنى الكلمة الأساسي .
+                 <br>
+                وهذا ما حدث مع اليابانييون ، واجهوا نفس المشكلة .
+                 <br>
+                عند كتابتهم كلمات  لطيفة ممكن يستخدمون حروف لها معاني مخيفة لأنهم يجهلون معنى الحروف الصينية  أو لأنهم يقصدون نطق تلك الحروف وليس معناها لكن ليس لهم أي خيار إلا أن يستخدموا تلك الحروف ليوضحوا طريقة القراءة. 
+                لاحظ بالمقطع كلمة " يوروشيكو ني " التي تعني " تشرفت بك " تحمل حروف صينية لها معاني مخيفة .<br>
+                و قصة " موموتاروو" نلاحظ أنها كتبت باستخدام حروف كانجي كثيرة و معقدة ولا تمتُّ للقصة بأي صلة . <br>
+                </p>
+                <iframe src="https://www.youtube.com/embed/dm4WU2aAM3I?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>إذاً المشكلة الأخرى التي واجهوها هي أنهم يحتاجون لكتابة حروف جدا كثيرة و معقدة بعكس الصينيين مثل ما ذكرنا في المثال السابق إذا الحرف L له معنى" الموت  "، فممكن الإشارة إلى كلمة " الموت" بحرف واحد فقط إذا كنت تعرف معنى الحرف طبعا. <br>
+                أما اذا كتبناها على حسب اللفظ الياباني ( العربي هنا ) لها فسوف نكتبها بهذه الطريقة MAOT وربما الحرف T و O يحملان معاني لطيفة و مناقضة لكلمة " موت " لكن لم يكن للياباني أي خيار إلا أن يكتبها بتلك الطريقة  . <br>
+                يعني الصيني يكتب حرف واحد مقابل الياباني الذي يكتب أربع حروف (ذو معاني عشوائية ) مع أنهما يشيران إلى نفس الكلمة  " الموت ". <br>
+                </p>
+                <p>نشاهد بالمقطع هنا يوضح كيف استنتجوا طريقة أخرى بدل كتابة الحروف الصينية فقط على اللفظ .</p>
+                <iframe  src="https://www.youtube.com/embed/R_-2zHmZrQA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <p> و أخيرا قرر اليابانييون مراعاة معنى الحروف الصينية في كتاباتهم ! <br>
+                نرى بالمقطع أن اليابانيين كانوا يكتبون كلمة جبل " ياما " بالحروف الصينية 也麻 . <br>
+                أما الصينيين فلهم الحرف 山 الذي يعني جبل و أيضا شكله يشبه الجبل و لكن قراءته هي " سان ". <br>
+                ما فعله اليابانييون هو دمج اللغتان . فربطوا معنى الحرف مع الكلمة اليابانية الدالة على نفس المعنى . <br>
+                فاستبدلوا القراءة الصينية بالقراءة اليابانية . <br>
+                يشار بالياباني على القراءة اليابانية بـ " كن " أما  القراءة الصينية " أون ". <br>
+                </p>
+             <p>و إذا عدنا للمثال الذي ذكرناه عن الحرف L الذي يعني "الموت" . <br>
+                الصيني سيشير لمعنى الموت فقط بحرف واحد وهو L . أما الياباني سيكتبه بهذه الطريقة MAOT . ولكن الآن الياباني يريد استخدام معنى الحروف إذاً فَهِمَ أنه من الممكن أن نعبر عن كلمة " الموت" بحرف واحد فقط . لذلك سيبدأ بإضافة نطق جديد للحرف L وهو MAOT . <br>
+                 <br>
+                إذاً بالنسبة للياباني فهو يرى الحرف L له نطقان وهما L و MAOT وله معنى الموت. <br>
+                أما بالنسبة للصيني فهو يرى الحرف L له معنى الموت وطريقة نطقه واحده وهي L. <br>
+                 <br>
+                إذاً حرف الكانجي الواحد أصبح له طريقتان للنطق " كن" و " أون" ، لكن ممكن أن تكون بعض الحروف لها أكثر من طريقة للنطق و ممكن أن يكون للحرف طريقة واحدة فقط للنطق. <br>
+                طريقة الكتابةهذه التي تتطلب مراعاة معاني الحروف الصينية كانت تسمى "المانيوغانا ".
+
+                </p>
+                <!-- <div class="moji">
+                 <div id="Gif"><button type="button" onclick="playi()"  style="cursor: pointer;"><img src="../HiraganaGifs/i.gif" alt=""></button></div>
+                 <div id="RE">i  </div>
+                 <div id="RA">إِ</div>
+                 <div id="MT">imagine that this cute little i sound looks like your smallest finger on your hand of your feet and when you need to go to the toilet you always hit it with the door and you cry like iiiiii is there anyone else here cry like ii ? or its only me ?</div>
+                 <div id="MTimg">img for memorizing it </div>
+              </div>  -->
+           
+           
+                           <!-- our footer for the main content -->
+                           <button ><a href="#"></a>Test yourslef</button>
+                           <button ><a href="Hiragana-1.html">go next</a></button>
+            
+    
+    
+            </div>
+          <!-- our maincontent end here -->
+
+
+
+</body>
+
+</html>
