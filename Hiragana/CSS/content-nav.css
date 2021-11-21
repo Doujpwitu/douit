@@ -63,6 +63,7 @@ header{
  border: 1px solid rgb(39, 39, 39);
  height: 100vh;
  box-sizing: border-box;
+ overflow: scroll;
 }
 header nav {
     width:270px;
