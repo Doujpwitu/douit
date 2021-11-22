@@ -1,6 +1,8 @@
-
+body{
+    background-color: rgb(255, 255, 255);
+}
 h1 , p{
-    color: rgb(0, 0, 0);
+    color: rgb(44, 41, 41);
     direction: rtl;
     
 }
@@ -60,7 +62,7 @@ header{
  bottom: 0;
  width:270px;
  background-color: white;
- border: 1px solid rgb(39, 39, 39);
+ outline: 1px solid gainsboro;
  height: 100vh;
  box-sizing: border-box;
  overflow: scroll;
@@ -85,7 +87,7 @@ header nav ul li a
    height: 50px;
    line-height: 50px;
    padding: 0 20px;
-   color: rgb(0, 0, 0);
+   color: rgb(39, 36, 36);
    text-decoration: none;
    display: block;
    
@@ -93,7 +95,7 @@ header nav ul li a
 header nav ul li a.active,
 header nav ul li a:hover {
     color: rgb(0, 0, 0);
-background: #2195f3c5;
+background: #c6a8e96b;
 
 }
 
@@ -144,7 +146,7 @@ button a {
          display: block;
      }
      header nav ul li a {
-        border-bottom: 1px solid rgba(0,0,0,2);
+        border-bottom: 1px solid gainsboro ;
      }
 }
 

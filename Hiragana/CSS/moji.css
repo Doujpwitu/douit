@@ -25,7 +25,7 @@
     }
 #Gif img{
     width: 200px;
-    height: 203.19px;
+    height: 203.9px;
    text-align: center;
 
  
@@ -36,7 +36,7 @@
 border: none;
 margin:0 ;
 background: none;
-
+  
 
 }
     #RE{
@@ -60,6 +60,10 @@ background: none;
     #MTimg{
     grid-area: mtimg;
     border: lightslategray 1px solid;
+    }
+    #MTimg img{
+        width: 200px;
+    height: 203.9px;
     }
     
     
@@ -86,5 +90,9 @@ background: none;
         width: auto;
         height: auto;
 
+    }
+    #MTimg img{
+      width:   320px;
+     height:    300px;
     }
 }
