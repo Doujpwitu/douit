@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>اليابان</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/content-nav.css">
@@ -20,7 +21,11 @@
            myAudio.play();
          
         }
-
+      function playho(){
+         var myAudio = document.getElementById("ho");
+         
+         myAudio.play();
+      }
         </script>
        <!-- script for playing the audio files -->
        <!-- audio files -->
@@ -32,6 +37,10 @@
               <source src="../HiraganaAudio/i.mp3" type="audio/mpeg">
               This HTML5 player is not supported by your browser
        </audio>
+       <audio id="ho" >
+        <source src="../HiraganaAudio/ho.mp3" type="audio/mpeg">
+        This HTML5 player is not supported by your browser
+      </audio>
        <!-- audio files -->
 
 
@@ -173,6 +182,14 @@
                  <div id="MTimg">img for memorizing it </div>
               </div>
            
+
+              <div class="moji">
+                <div id="Gif"><button type="button" onclick="playho()"  style="cursor: pointer;"><img src="../HiraganaGifs/ho.gif" alt=""></button></div>
+                <div id="RE">ho </div>
+                <div id="RA">هو</div>
+                <div id="MT">imagine that this cute little i sound looks like your smallest finger on your hand of your feet and when you need to go to the toilet you always hit it with the door and you cry like iiiiii is there anyone else here cry like ii ? or its only me ?</div>
+                <div id="MTimg">img for memorizing it </div>
+             </div>
            
                            <!-- our footer for the main content -->
                            <button ><a href="#"></a>Test yourslef</button>

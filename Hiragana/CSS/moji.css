@@ -1,7 +1,7 @@
 .moji{
     display:grid;
     height: 100vh;
-    grid-template-columns: 200px  50px 200px 100px ;
+    grid-template-columns: 200px  50px 200px 200px ;
    grid-template-rows:  100px 100px ;
     grid-template-areas: 
     "gif re   mtimg mt"
@@ -17,42 +17,49 @@
 
 #Gif{
     grid-area: gif;
-    background-color: rgb(255, 255, 255);
-      
+    padding: 0%;
+
+    
     
     
     }
 #Gif img{
     width: 200px;
-    height: 200px;
+    height: 203.19px;
+   text-align: center;
+
+ 
+
 }
 #Gif button{
     padding: 0;
 border: none;
+margin:0 ;
 background: none;
+
+
 }
     #RE{
     grid-area: re;
-    border: lightslategray 3px solid;
+    border: lightslategray 1px solid;
 
     }
     #RA{
     grid-area: ra;
-    border: lightslategray 3px solid;
+    border: lightslategray 1px solid;
 
     
     }
     #MT{
     grid-area: mt;
-    border: lightslategray 3px solid;
-    
-    overflow: scroll;
+    border: lightslategray 1px solid;
+    direction: rtl;
 
         
     }
     #MTimg{
     grid-area: mtimg;
-    border: lightslategray 3px solid;
+    border: lightslategray 1px solid;
     }
     
     
