@@ -1,9 +1,13 @@
 .red{
-    color: red;
+    color: rgb(145, 45, 45);
 }
 .blue{
-    color: blue;
+    color: rgb(35, 35, 145);
 }
-.Hyellow{
-    background-color: rgba(255, 255, 0, 0.473);
+.Hblue{
+    background-color: rgba(135, 188, 248, 0.473);
+}
+
+.Hpurple{
+    background-color: rgba(229, 135, 248, 0.473);
 }
