@@ -4,10 +4,25 @@
 .blue{
     color: rgb(35, 35, 145);
 }
+.koi{
+    color: purple;
+}
+.usu{
+    color: rgb(192, 119, 192);
+}
 .Hblue{
     background-color: rgba(135, 188, 248, 0.473);
 }
 
 .Hpurple{
     background-color: rgba(229, 135, 248, 0.473);
+}
+
+b{
+   font-size: 30px;
+  
+}
+
+.L{
+text-decoration: underline;
 }
