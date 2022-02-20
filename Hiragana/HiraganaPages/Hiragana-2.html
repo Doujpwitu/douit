@@ -9,30 +9,55 @@
     
         <!-- script for playing the audio files -->
         <script>
-        function playa() {
-         var myAudio = document.getElementById("a");
+        function playo() {
+         var myAudio = document.getElementById("o");
          
            myAudio.play();
          
         }
-        function playi() {
-         var myAudio = document.getElementById("i");
+        function playha() {
+         var myAudio = document.getElementById("ha");
+         
+           myAudio.play();
+         
+        }
+        function playyo() {
+         var myAudio = document.getElementById("yo");
+         
+           myAudio.play();
+         
+        }
+        function playu() {
+         var myAudio = document.getElementById("u");
          
            myAudio.play();
          
         }
 
+       //for the button to open test new page docs
+       document. getElementById("myButton"). onclick = function () {
+        location. href = "https://docs.google.com/forms/d/e/1FAIpQLSd-iLmn7zqYm-TqizxaF1T6xWEJitSqi6vzo0-JBoA9G-OeYg/viewform?usp=sf_link";
+        };
+      
         </script>
        <!-- script for playing the audio files -->
        <!-- audio files -->
-       <audio id="a" >
-             <source src="../HiraganaAudio/a.mp3" type="audio/mpeg">
+       <audio id="o" >
+             <source src="../HiraganaAudio/o.mp3" type="audio/mpeg">
              This HTML5 player is not supported by your browser
        </audio>
-       <audio id="i" >
-              <source src="../HiraganaAudio/i.mp3" type="audio/mpeg">
+       <audio id="ha" >
+              <source src="../HiraganaAudio/ha.mp3" type="audio/mpeg">
               This HTML5 player is not supported by your browser
        </audio>
+       <audio id="yo" >
+             <source src="../HiraganaAudio/yo.mp3" type="audio/mpeg">
+              This HTML5 player is not supported by your browser
+       </audio>    
+       <audio id="u" >
+            <source src="../HiraganaAudio/u.mp3" type="audio/mpeg">
+           This HTML5 player is not supported by your browser
+        </audio>
        <!-- audio files -->
 
 
@@ -97,17 +122,53 @@
               لاحظوا مقطع الفيديو ، الفتاة التي أنزلت رأسها تحدثت بالطريقة الرسمية لأنها تتحدث مع زميلتها الأكثر منها خبرة بالعمل ، ولكن هي ردت عليها بالطريقة العامية وهي " أوهايو " التي سنتعلمها الآن .
               </p>
               <iframe src="https://www.youtube.com/embed/OArGpw8cWgk?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
- 
+              <p>الزميل بالعمل الذي يكون داخل الشركة قبلك يسمى " سينباي " و أنت تكون الـ " كوهاي" بالنسبة له . يعني ليس شرط  أن يكون أكبر منك عمراً .بعض الأحيان يكون الـ"سينباي" عمره أقل بكثير من الـ"كوهاي " فهذا النداء يقاس فقط على مدى خبرتك بمجال محدد. فممكن أنا أنادي زميلتي "سينباي " بمجال الكمبيوتر لأنها أكثر خبرة مني و أكون أنا الـ"كوهاي " بالنسبة لها لأن أنا أقل من خبرة بمجال الكمبيوتر ، وهي تناديني "سينباي " بمجال الرسم مثلا.
+              </p>
+              <p>والآن دعونا نتعلم كتابة و قراءة كلمة " صباح الخير " باللغة اليابانية .</p>
               <div class="moji">
-                 <div id="Gif"><button type="button" onclick="playi()"  style="cursor: pointer;"><img src="../HiraganaGifs/i.gif" alt=""></button></div>
+                 <div id="Gif"><button type="button" onclick="playo()"  style="cursor: pointer;"><img src="../HiraganaGifs/o.gif" alt=""></button></div>
                  <div id="RE">i  </div>
                  <div id="RA">إِ</div>
-                 <div id="MT">imagine that this cute little i sound looks like your smallest finger on your hand of your feet and when you need to go to the toilet you always hit it with the door and you cry like iiiiii is there anyone else here cry like ii ? or its only me ?</div>
+                  <div id="MT">
+                    <p>الصورة توضح أنه ممكن تحفظ الحرف من خلال تصويره بـ حرفين من الحرف الإنجليزي o والنطق أيضا مشابه للحرف.
+                    </p>
+                  </div>
                  <div id="MTimg">img for memorizing it </div>
               </div>
+              
+              <div class="moji">
+                <div id="Gif"><button type="button" onclick="playha()"  style="cursor: pointer;"><img src="../HiraganaGifs/ha.gif" alt=""></button></div>
+                <div id="RE">o </div>
+                <div id="RA">أو</div>
+                <div id="MT">
+                  <p>الصورة توضح أنه ممكن تحفظ الحرف من خلال تصويره بحرفين من الحروف الإنجليزية واللذان أيضا يوضحان طريقة النطق ، أعتقد هذا الحرف لن تستطيع نسيانه لأنه جدا قريب من هذه الحروف.
+                  </p>
+                </div>
+                <div id="MTimg">img for memorizing it </div>
+             </div>
+             <div class="moji">
+              <div id="Gif"><button type="button" onclick="playyo()"  style="cursor: pointer;"><img src="../HiraganaGifs/yo.gif" alt=""></button></div>
+              <div id="RE">i  </div>
+              <div id="RA">إِ</div>
+              <div id="MT">imagine that this cute little i sound looks like your smallest finger on your hand of your feet and when you need to go to the toilet you always hit it with the door and you cry like iiiiii is there anyone else here cry like ii ? or its only me ?</div>
+              <div id="MTimg">img for memorizing it </div>
+           </div>
+           <p>
+            لاحظ الرسمه كأن الحرف هو u  لكنها مقلوبه ممكن هذا التشبيه يساعدكم على حفظ شكل الحرف
+            لكن نطقه لا يشبه الحرف الإنجلزي "u" إطلاقا بل كأنه الحرف العربي أ مع ضمة فوقه أي " أُ"
+            </p>
+           <div class="moji">
+            <div id="Gif"><button type="button" onclick="playu()"  style="cursor: pointer;"><img src="../HiraganaGifs/u.gif" alt=""></button></div>
+            <div id="RE">i  </div>
+            <div id="RA">إِ</div>
+            <div id="MT">
+           <p>كأنه الحرف الانجليزي u لكنه مقلوب.</p>        
+            </div>
+            <div id="MTimg">img for memorizing it </div>
+         </div>
                          <!-- our footer for the main content -->
-                         <button ><a href="#"></a>Test yourslef</button>
+                    
+                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-iLmn7zqYm-TqizxaF1T6xWEJitSqi6vzo0-JBoA9G-OeYg/viewform?usp=sf_link" target="_blank">  <button id="myButton">test next</a></button></a>
                          <button ><a href="Hiragana-1.html">go next</a></button>
                          
     
