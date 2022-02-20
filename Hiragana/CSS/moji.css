@@ -1,6 +1,6 @@
 .moji{
     display:grid;
-    height: 100vh;
+   margin: 20px;
     grid-template-columns: 200px  50px 200px 200px ;
    grid-template-rows:  100px 100px ;
     grid-template-areas: 

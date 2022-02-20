@@ -18,6 +18,8 @@ iframe{
 
 #maincontent{
     margin: 22px;
+    margin-right: 6em;
+    margin-left: 3em;
     padding-left: 280px;
     padding-right: 1em;
     height: 100vh;
@@ -29,6 +31,7 @@ iframe{
     #maincontent{
         padding-left:0;
         padding-top: 60px;
+        margin-right: 2em;
     }
 }
 

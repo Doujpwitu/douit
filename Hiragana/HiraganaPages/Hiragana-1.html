@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="rtl" >
+<html>
 <head>
     <title>اليابان</title>
     <meta charset="UTF-8">
@@ -22,17 +22,18 @@
            myAudio.play();
          
         }
-        function playi() {
-         var myAudio = document.getElementById("i");
-         
-           myAudio.play();
-         
-        }
+       
       function playho(){
          var myAudio = document.getElementById("ho");
          
          myAudio.play();
       }
+      function playn() {
+         var myAudio = document.getElementById("n");
+         
+           myAudio.play();
+         
+        }
         </script>
        <!-- script for playing the audio files -->
        <!-- audio files -->
@@ -40,14 +41,16 @@
              <source src="../HiraganaAudio/ni.mp3" type="audio/mpeg">
              This HTML5 player is not supported by your browser
        </audio>
-       <audio id="i" >
-              <source src="../HiraganaAudio/i.mp3" type="audio/mpeg">
-              This HTML5 player is not supported by your browser
-       </audio>
+       
        <audio id="ho" >
         <source src="../HiraganaAudio/ho.mp3" type="audio/mpeg">
         This HTML5 player is not supported by your browser
-      </audio>
+       </audio>
+      
+        <audio id="n" >
+        <source src="../HiraganaAudio/n.mp3" type="audio/mpeg">
+        This HTML5 player is not supported by your browser
+       </audio>
        <!-- audio files -->
 
 
@@ -151,7 +154,7 @@
     <!-- فيديو يوضح كيف كان الصينيون يقرأون الهانزو-->
     <br><br>
                   </p>
-                  
+                 <p>
 <span class="Hpurple">حروف الهيراغانا و الكاتاكانا هي حروف تعبر طريقة النطق فقط يعني ليس هناك معنى مرتبط بها . مثل الحروف العربية و الإنجليزية .</span> <br>
 الكانا هو اسم يضم حروف الهيراغانا و حروف الكاتاكانا <br>
    كلتا المجموعتين تعبران عن طريقة النطق . <br>
@@ -188,7 +191,10 @@
                 فقط ثلاث حروف هيراغانا . <br>
                 </p>
               <!--صورة للحروف مع الروماجي  -->
-
+                <p><b>にほん</b></p>
+                <p>ni   &nbsp;&nbsp; &nbsp; ho  &nbsp;&nbsp;&nbsp;  n&nbsp;</p>
+                <p><span class="light">الحروف الإنجليزية المكتوبة أسفل الحرف تسمى "روماجي" وهي توضح طريقة قراءة الحرف، تشبه نطق حروف الإنجليزية لكن يوجد بعض الاختلافات لبعض الحروف .</span>
+                </p>
               <p>
                  سنبدأ بأول حرف هيراغانا سنتعلمه .  <br>
                ( طبعا هو ليس أول حرف هيراغانا بجدول الحروف . لكن مثل ما ذكرت سابقا طريقتي ستكون شبه عشوائية و أركز على التنويع و المتعة بالتعلم ). <br>
@@ -208,27 +214,51 @@
               </div>
               <div id="MTimg">الركب </div>
               </div>
-            
-             <iframe src="https://www.youtube.com/embed/OArGpw8cWgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
- 
-              <div class="moji">
-                 <div id="Gif"><button type="button" onclick="playi()"  style="cursor: pointer;"><img src="../HiraganaGifs/i.gif" alt=""></button></div>
-                 <div id="RE">i  </div>
-                 <div id="RA">إِ</div>
-                 <div id="MT">imagine that this cute little i sound looks like your smallest finger on your hand of your feet and when you need to go to the toilet you always hit it with the door and you cry like iiiiii is there anyone else here cry like ii ? or its only me ?</div>
-                 <div id="MTimg">img for memorizing it </div>
-              </div>
-           
+            <p><span class="light">لتعلم بكفاءة أنصحكم بتخصيص دفتر لكتابة الحروف وبنسخ الحرف أكثر من مره لا تكتفوا بعشر أو خمس مرات . مهم جداً أن تستخدموا أكثر من حاسة لحفظ المعلومات . اكتب بيدك ولاحظ كيف تكتب كل خط لتكون الحرف و اقرأ نطق الحرف بصوت مسموع و اسمع ، كل ذلك سيساعد على حفظ الحرف بشكل أسرع</span>      </p>
 
+            <p>الحرف التالي هو Ho و ممكن تشبهه بشخص يقول " هوو" ليظهر نفسه كأنه منتبه لكلام صديقه الذي لا يكف عن   الكذب وهو في الأصل غير منتبه ولابس سماعات ..وطبعا يبكي من تعجبه لخيال صديقه الواسع </p>
+             <p>يمكن الأفضل إنكم تحفظون شكل الحرف بدون ما تشبهونه بشي بعض الأحيان</p>
+            <img style="height: auto; width: 350px;" src="../images/Ho.png" alt="">
               <div class="moji">
                 <div id="Gif"><button type="button" onclick="playho()"  style="cursor: pointer;"><img src="../HiraganaGifs/ho.gif" alt=""></button></div>
                 <div id="RE">ho </div>
                 <div id="RA">هو</div>
-                <div id="MT">imagine that this cute little i sound looks like your smallest finger on your hand of your feet and when you need to go to the toilet you always hit it with the door and you cry like iiiiii is there anyone else here cry like ii ? or its only me ?</div>
+                <div id="MT">
+                  
+                  ممكن تشبهه بشخص يقول " هوو" ليظهر نفسه كأنه منتبه لكلام صديقه الذي لا يكف عن الكذب وهو في الأصل غير منتبه ولابس سماعات ..وطبعا يبكي من تعجبه لخيال صديقه الواسع
+                </div>
                 <div id="MTimg"><img src="../images/Ho.png" alt=""> </div>
              </div>
+
+             <p>
+               الحرف التالي هو N 
+               أتوقع هذا الحرف راح يكون الأسهل بالحفظ لأنه يشبه الحرف الإنجليزي " n " بشكل كبير  وله نفس النطق .و بالمناسبة هو الحرف الوحيد الساكن باللغة اليابانية . 
+             </p>
+             <div class="moji">
+              <div id="Gif"><button type="button" onclick="playn()"  style="cursor: pointer;"><img src="../HiraganaGifs/n.gif" alt=""></button></div>
+              <div id="RE">n </div>
+              <div id="RA">نْ</div>
+              <div id="MT">
+                
+                 يشبه الحرف الإنجليزي " n " بشكل كبير  وله نفس النطق 
+
+              </div>
+              <div id="MTimg"><img src="" alt=""> </div>
+           </div>
+
+           <p>
+            و الآن أستطيع أن أبارك لكم بتعلم قراءة وكتابة أول كلمة يابانية .
+            وهي にほん　و أيضا بتعلمكم طريقة كتابة نفس الكلمة  بالرموز الصينية أيضا 日本.
+           </p>
+
            
+
+           <p>
+            にほん
+            <br>
+            <b>日本</b></p>
+  
+
                            <!-- our footer for the main content -->
                            <button ><a href="#"></a>Test yourslef</button>
                            <button ><a href="Hiragana-1.html">go next</a></button>
