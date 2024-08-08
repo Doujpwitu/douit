@@ -11,32 +11,32 @@ I want to complete this project because simply I think its cool , and Ive alread
 Project's Directory tree
 
 .
-├── Hiragana
-│   ├── CSS
-│   │   ├── colors.css
-│   │   ├── content-nav.css
-│   │   └── moji.css
-│   ├── HiraganaAudio
-│   │   ├── a.mp3
-│   │   ├── ba.mp3
-│   │   ├── .
-│   │   ├── .
-│   │   └── zu.mp3
-│   ├── HiraganaGifs
-│   │   ├── a.gif
-│   │   ├── chi.gif
-│   │   ├── .
-│   │   └── yu.gif
-│   ├── HiraganaPages
-│   │   ├── content-page.html(Layout)
-│   ├── images
-│   │   ├── // considering images foulder for each page
-│   └── sorces.txt // images and audios sources
-├── README.md
-├── index.html
-└── stylesheet.css
+├── Hiragana  
+│   ├── CSS  
+│   │   ├── colors.css  
+│   │   ├── content-nav.css  
+│   │   └── moji.css  
+│   ├── HiraganaAudio  
+│   │   ├── a.mp3  
+│   │   ├── ba.mp3  
+│   │   ├── .  
+│   │   ├── .  
+│   │   └── zu.mp3  
+│   ├── HiraganaGifs  
+│   │   ├── a.gif  
+│   │   ├── chi.gif  
+│   │   ├── .  
+│   │   └── yu.gif  
+│   ├── HiraganaPages  
+│   │   ├── content-page.html(Layout)  
+│   ├── images  
+│   │   ├── // considering images foulder for each page  
+│   └── sorces.txt // images and audios sources  
+├── README.md  
+├── index.html  
+└── stylesheet.css  
 
 ----- 8 Aug 2024 -----
 
-commented out index.html from navigation bar
+commented out index.html from navigation bar  
 removed mojis divs
