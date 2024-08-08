@@ -28,19 +28,15 @@ Project's Directory tree
 │   │   ├── .
 │   │   └── yu.gif
 │   ├── HiraganaPages
-│   │   ├── Hiragana-1.html
-│   │   ├── Hiragana-2.html
-│   │   ├── Hiragana-3.html
-│   │   ├── Hiragana-4.html
-│   │   ├── Hiragana-5.html
-│   │   ├── content-page.html
-│   │   └── index.html
+│   │   ├── content-page.html(Layout)
 │   ├── images
-│   │   ├── Ho.png
-│   │   ├── L_Maot.png
-│   │   ├── S_Python.png
-│   │   └── kohi.png
-│   └── sorces.txt
+│   │   ├── // considering images foulder for each page
+│   └── sorces.txt // images and audios sources
 ├── README.md
 ├── index.html
 └── stylesheet.css
+
+----- 8 Aug 2024 -----
+
+commented out index.html from navigation bar
+removed mojis divs
