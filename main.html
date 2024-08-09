@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type="text/css" href="stylesheet.css">
     <title> Doujpwitu </title>
+<head>
+  <title>تاريخ اللغة اليابانية</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/content-nav.css">
+    <link rel="stylesheet" href="../CSS/moji.css">
     
     </head>
 <body>
@@ -22,9 +28,33 @@
 
 <p>في الوقت الذي يزداد فيه معجبين الانمي والثقافة اليابانية يزداد معه الراغبين في تعلم اللغة اليابانية ولكن للأسف لفقر المصادر العربية لتعلم اللغة اليابانية الكثير 
     يستسلم عن رغبته بتعلم اللغة لذا صنعت هذا الموقع الذي من خلاله سأجمع كل المعلومات التي  تحتاجها لتعلم اللغة اليابانية  . 
+        <!-- script for playing the audio files -->
+        <script>
+        function playa() {
+         var myAudio = document.getElementById("a");
+         
+           myAudio.play();
+         
+        }
+        function playi() {
+         var myAudio = document.getElementById("i");
+         
+           myAudio.play();
+         
+        }
 
-</p>
-</div>
+        </script>
+       <!-- script for playing the audio files -->
+       <!-- audio files -->
+       <audio id="a" >
+             <source src="../HiraganaAudio/a.mp3" type="audio/mpeg">
+             This HTML5 player is not supported by your browser
+       </audio>
+       <audio id="i" >
+              <source src="../HiraganaAudio/i.mp3" type="audio/mpeg">
+              This HTML5 player is not supported by your browser
+       </audio>
+       <!-- audio files -->
 
 
     
@@ -32,19 +62,21 @@
     <div class="Box" id="box2"><a href="Hiragana/HiraganaPages/Hiragana-2.html"><div class="BoxContent" id="box2content"></div></a>  </div>
     <div class="Box" id="box3"> <a href="Hiragana/HiraganaPages/Hiragana-1.html"><div class="BoxContent" id="box1content"></div></a>  </div>
     <div class="Box" id="box4"> <a href="Hiragana/HiraganaPages/Hiragana-3.html"><div class="BoxContent" id="box1content"></div></a>  </div>
+        <!-- the start of jquery script to toggle the side bar -->
 
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script type="text/javascript">
+              $(document).ready(function(){
+              $('.menu-toggle').click(function(){
+              $('nav').toggleClass('active')
+  
+             })
+            })
+        </script>
 
 <div id="footer">
     <p>انستاقرام </p>
     <p>ايميل</p>
 </div>
 </div>
-
-</div>
-</body>
-
-
-
-
-
-</html>
+        <!-- the end of jquery script to toggle the side bar -->
