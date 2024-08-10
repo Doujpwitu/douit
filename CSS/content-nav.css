@@ -57,6 +57,9 @@ table ,th,td{
 }
 table{
     width: 50%;
+    margin-left: 5em;
+    padding: 2px;
+  
 }
 tr{
     width: 100%;
