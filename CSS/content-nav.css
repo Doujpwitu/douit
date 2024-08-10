@@ -7,6 +7,11 @@ h1 , p{
     user-select:none;
 }
 
+ul {
+    color: rgb(44, 41, 41);
+    direction: rtl;
+}
+
 a{
     text-decoration: none;
 
@@ -43,7 +48,19 @@ iframe{
     }
 }
 
-
+table ,th,td{  
+    color: rgb(44, 41, 41);
+   
+    position: right;
+    border: 1px solid rgb(44, 41, 41);
+    user-select:none;
+}
+table{
+    width: 50%;
+}
+tr{
+    width: 100%;
+}
 
 /* nav */
 /* nav */

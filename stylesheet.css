@@ -26,6 +26,7 @@ p{
   
 }
 
+
 #nav{
   
     height: 35px;
@@ -116,6 +117,11 @@ grid-area: main;
    color: rgb(94, 94, 94);
    font-size: 14px;
 }
+/*
+.contact-btn a:active {
+    top: 2px;
+  }
+*/
 
 
 @media Only screen and (max-width:650px)
