@@ -18,6 +18,7 @@
 #Gif{
     grid-area: gif;
     padding: 0%;
+    margin-left: 30%;
 
     
     
@@ -78,17 +79,20 @@ background: none;
         grid-template-rows: 2fr 1fr 2fr 1fr  ;
         grid-template-areas: 
         "gif gif  "
-        "re ra"
-        "mtimg mtimg"
-        "mt mt"
+
        
         ;
 
 
     }
+
+    #Gif{
+        margin-left:10%;
+    }    
     #Gif img{
-        width: auto;
-        height: auto;
+        width: 280px;
+        height: 270px;
+        text-align: center;
 
     }
     #MTimg img{
