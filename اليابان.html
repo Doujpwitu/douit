@@ -266,6 +266,12 @@
   الحروف الإنجليزية المكتوبة أسفل الحرف تسمى "روماجي" تشبه نطق حروف الإنجليزية لكن يوجد بعض الاختلافات لبعض الحروف .
 
 </p>
+<div class="entryCard" id="entryCard_1">
+  <p class="entryQuestion">إكتب にほん</p>
+  <input  class="entry" placeholder="にほん">
+  <p class="message"></p>
+  <button class="check">تـحـقق</button>
+</div>
 <p>و الآن سنبدأ بأول حرف هيراغانا سنتعلمه . 
 </p>
 <p>
@@ -353,7 +359,44 @@
             </div>
           <!-- our maincontent end here -->
 
+            <script>
+              const checkButtons = document.getElementsByClassName("check")
+              const entryFields = document.getElementsByClassName("entry")
+              const messageOnEntry = document.getElementsByClassName("message")
+              const entryQandA = {
+              entryCard_1:
+              {
+            Question:"にほん",
+            userAnswer:entryFields[0],
+            messageBox:messageOnEntry[0]
+            }
+  
+    
+            };
+            
 
+function onCheckClick(){
+    const parentID = $(this).parent().attr('id');
+    const domParent = document.getElementById(parentID)
+    let userinput = entryQandA[parentID].userAnswer.value;
+    if(userinput.trim()===entryQandA[parentID].Question){
+        entryQandA[parentID].messageBox.innerHTML = 'إجابة صحيحة!'
+        entryQandA[parentID].userAnswer.classList.remove('wrong')
+        entryQandA[parentID].userAnswer.classList.add('correct')
+        entryQandA[parentID].userAnswer.setAttribute( "disabled", "true" );
+        
+    }else{
+        entryQandA[parentID].messageBox.innerHTML = '..حاول مرة أخرى'
+        entryQandA[parentID].userAnswer.classList.add('wrong')
+    }
+    
+}
+for(let i = 0; i < checkButtons.length; i++){
+    checkButtons[i]
+    .addEventListener("click",onCheckClick);
+}
+
+            </script>
 
 </body>
 
