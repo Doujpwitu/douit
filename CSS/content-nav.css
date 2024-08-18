@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+/*font-family: 'Droid Arabic Naskh', serif;*/
+
+
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -5,11 +9,21 @@ h1 , p{
     color: rgb(44, 41, 41);
     direction: rtl;
     user-select:none;
+    font-family: 'Droid Arabic Naskh', serif
+    
+}
+p{
+    font-size:19px;
+}
+.en{
+    font-family: Monospace;
+    direction: ltr;
 }
 
 ul {
     color: rgb(44, 41, 41);
     direction: rtl;
+    font-family: 'Droid Arabic Naskh', serif
 }
 
 a{
@@ -235,4 +249,24 @@ input{
 .entryCard p{
     direction: rtl;
     padding:20px;
+}
+
+#u{
+    animation-name: rotateme;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+   width:100px;
+   height:100px;
+    
+   
+}
+
+@keyframes rotateme{
+    from{
+        transform : rotate(0deg);
+    }
+    50%,100%{
+        transform: rotate(-90deg);
+    }
 }
