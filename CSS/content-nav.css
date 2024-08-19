@@ -272,20 +272,20 @@ button{
     cursor: pointer;
 }
 
-#Gif img{
+.Gif img{
     filter: grayscale(100%);
     margin: -5px ;
 }
 
-#Gif{
+.Gif{
     width: 310px;
     height: 230px;
     border-radius: 10px;
-    border: 2px solid #d2d2d2;
+    border: 1px solid #e0e0e0;
     overflow: hidden;
 }
 
-#Gif button{
+.Gif button{
     padding: 0;
     border: none;
     margin:0 ;
